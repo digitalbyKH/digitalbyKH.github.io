@@ -3,40 +3,48 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
-  color: #333;
+  background: #f3f0e0;
+  color: #333232;
 }
 
 header {
-  background: #333;
-  color: #fff;
+  background: #345825;
+  color: #e4e9e3;
   padding: 1em 2em;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
+.tagline {
+  font-size: 1rem;
+  color: #e4e9e3;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
 nav a {
-  color: #fff;
+  color: #e4e9e3;
   margin-left: 1em;
   text-decoration: none;
 }
 
 section {
   padding: 2em;
-  background: #fff;
+  background: #93c080;
   margin: 1em 0;
 }
 
 .project {
-  background: #e9e9e9;
+  background: #93c080;
   padding: 1em;
   margin-bottom: 1em;
 }
 
 footer {
-  background: #333;
-  color: #fff;
+  background: #345825;
+  color: #faf9fa;
   text-align: center;
   padding: 1em;
 }
